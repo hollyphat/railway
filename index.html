@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#2196f3">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:"> -->
+  <title></title>
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="css/framework7.min.css">
+  <link rel="stylesheet" href="css/app.css">    
+
+</head>
+<body class="color-theme-green" id="">
+
+  <div id="app">
+    <div class="statusbar"></div>    
+    <div class="view view-main view-init ios-edges" data-url="/">
+      <div class="page">
+        
+        <div class="page-content">
+
+          <div class="bg-res" style="background-image: url(img/icon.jpg); height: 300px;"></div>
+          
+          <div id="splashs" class="block" style="margin-top: 20px;">
+            <div class="center" style="text-align:center;">              
+                            
+              <h3 class="logo-text">Train Seat Reservation System</h3>
+              <h4 >
+                Supervised By 
+                <p>
+                  Dr. Adekiigbe A.A
+                </p>
+              </h4>
+
+              <h4 >
+                Developed by
+                <p>
+                  Solahudeen Rukayat Omowumi - HC201601562
+                </p>
+              </h4>
+
+              
+                            
+            </div>
+                        
+
+              
+              <!-- In data-actions attribute we specify CSS selector of action sheet we need to open -->
+              <p><a href="#" data-actions=".my-actions" class="actions-open button button-outline button-round col">Continue</a></p>
+
+              <!-- And somewhere in DOM -->
+              <div class="actions-modal my-actions">
+
+                  <div class="padding">Select Option</div>
+                  
+                  <div class="block">  
+                    <div class="row" style="">
+                      <a class="button button-outline button-round col actions-close" href="/book/">Reserve Seat</a>
+                    </div>          
+                    </div>          
+
+                    <div class="row block" style="">
+                      <a class="button button-outline button-round col actions-close" href="/edit/">Edit Seat</a>
+                    </div>
+
+
+                    <!-- <div class="row block" style="">
+                      <a class="button button-outline button-round col actions-close" href="/delete/">Cancel Seat</a>
+                    </div> -->
+
+                    <div class="row block" style="">
+                      <a class="button button-outline button-round col actions-close" href="/schedulle/">View Schedule</a>
+                    </div>
+
+              </div>
+            
+            </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/framework7.min.js"></script> 
+  <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="js/validate.js"></script>   
+  <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="cordova_plugins.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/routes.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
